@@ -9,14 +9,23 @@ The goal was to clean and merge the datasets, conduct exploratory data analysis,
 
 ## Repository Structure
 project-evapotranspiration/
+
 │
+
 ├── Cleaning_data.ipynb # Data cleaning, unit adjustments, merging datasets
+
 ├── data_exploration.ipynb # Exploratory analysis and visualizations
+
 ├── app.py # Streamlit dashboard interface
+
 ├── core.py # Plotting functions used by the dashboard
+
 ├── data/
+
 │ ├── raw/ # Original AmeriFlux + OpenET datasets
+
 │ └── processed/ # Cleaned and merged dataset (pickle file)
+
 └── README.md
 
 ## Data Processing Steps
