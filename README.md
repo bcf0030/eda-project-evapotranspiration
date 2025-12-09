@@ -1,5 +1,5 @@
 # EDA Project – Evapotranspiration Analysis (AmeriFlux + OpenET)
-*INSY 6500 – Modern Tools for Data Analysis and Modeling*  
+*INSY 6500 - Modern Tools for Data Analysis and Modeling*  
 **Benjamin Ferguson & Stephanie Pinto**
 
 ## Project Overview
@@ -8,7 +8,7 @@ This project explores monthly ecohydrological dynamics at the **AmeriFlux US-SRG
 The goal was to clean and merge the datasets, conduct exploratory data analysis, and build an **interactive Streamlit dashboard** to visualize ET drivers and relationships among climate variables.
 
 ## Repository Structure
-project-evapotranspiration/
+eda-project-evapotranspiration/
 
 │
 
@@ -64,7 +64,7 @@ The analysis focused on:
   - High rainfall (water availability)  
   - Low wind speed (reduced aerodynamic limitations)  
 - **Low ET occurs when:**  
-  - Low temperature **or** low rainfall **or** high wind — any of these factors can restrict ET.  
+  - Low temperature **or** low rainfall **or** high wind - any of these factors can restrict ET.  
 - Soil moisture shows weak direct correlations at a monthly time scale.
 
 ## Streamlit Dashboard
@@ -77,8 +77,8 @@ An interactive dashboard was developed to provide:
 
 The dashboard is organized into:
 
-- `app.py` — user interface and layout  
-- `core.py` — modular plotting functions used throughout the app  
+- `app.py` - user interface and layout  
+- `core.py` - modular plotting functions used throughout the app  
 
 https://eda-project-evapotranspiration.streamlit.app/
 
@@ -90,7 +90,7 @@ https://eda-project-evapotranspiration.streamlit.app/
 - Git/GitHub  
 
 ## Course Information
-*INSY 6500 – Modern Tools for Data Analysis and Modeling*  
+*INSY 6500 - Modern Tools for Data Analysis and Modeling*  
 Auburn University  
 Department of Industrial & Systems Engineering  
 Instructor: Dr. Dan O'Leary  
